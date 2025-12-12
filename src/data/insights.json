@@ -1,0 +1,237 @@
+{
+    "insights": [
+        {
+            "id": "ins_001",
+            "type": "opportunity",
+            "title": "High-Margin Product Detected",
+            "description": "Portable LED Ring Light shows exceptional performance with 45.2% growth trend and 72.1% profit margin. Consider increasing inventory and ad spend.",
+            "confidence": 94,
+            "impact": "high",
+            "actionable": true,
+            "action": "View Product Analysis",
+            "createdAt": "2024-12-12T08:30:00Z",
+            "metrics": [
+                {
+                    "label": "Growth",
+                    "value": "+45.2%"
+                },
+                {
+                    "label": "Margin",
+                    "value": "72.1%"
+                },
+                {
+                    "label": "Sales",
+                    "value": "15,632"
+                }
+            ]
+        },
+        {
+            "id": "ins_002",
+            "type": "trend",
+            "title": "Wireless Audio Surge",
+            "description": "Smart Wireless Earbuds Pro category is experiencing 24.5% month-over-month growth. This aligns with holiday shopping patterns.",
+            "confidence": 89,
+            "impact": "high",
+            "actionable": true,
+            "action": "Explore Category",
+            "createdAt": "2024-12-12T07:15:00Z",
+            "metrics": [
+                {
+                    "label": "MoM Growth",
+                    "value": "+24.5%"
+                },
+                {
+                    "label": "Category Rank",
+                    "value": "#1"
+                }
+            ]
+        },
+        {
+            "id": "ins_003",
+            "type": "warning",
+            "title": "Declining Product Alert",
+            "description": "UV Phone Sanitizer shows -8.9% decline over the past 30 days. Consider reducing inventory or adjusting pricing strategy.",
+            "confidence": 87,
+            "impact": "medium",
+            "actionable": true,
+            "action": "Review Inventory",
+            "createdAt": "2024-12-12T06:45:00Z",
+            "metrics": [
+                {
+                    "label": "Trend",
+                    "value": "-8.9%"
+                },
+                {
+                    "label": "Stock Level",
+                    "value": "High"
+                }
+            ]
+        },
+        {
+            "id": "ins_004",
+            "type": "recommendation",
+            "title": "Optimize Ad Spend",
+            "description": "Based on conversion data, shifting 15% of budget from Facebook to TikTok could increase ROAS by approximately 23%.",
+            "confidence": 78,
+            "impact": "high",
+            "actionable": true,
+            "action": "View Recommendation",
+            "createdAt": "2024-12-12T05:30:00Z",
+            "metrics": [
+                {
+                    "label": "Potential ROAS",
+                    "value": "+23%"
+                },
+                {
+                    "label": "Budget Shift",
+                    "value": "15%"
+                }
+            ]
+        },
+        {
+            "id": "ins_005",
+            "type": "opportunity",
+            "title": "New Market Opportunity",
+            "description": "Tokyo region shows 28.7% growth with relatively low competition. Consider expanding product range for Japanese market.",
+            "confidence": 82,
+            "impact": "medium",
+            "actionable": true,
+            "action": "Explore Region",
+            "createdAt": "2024-12-11T22:00:00Z",
+            "metrics": [
+                {
+                    "label": "Region Growth",
+                    "value": "+28.7%"
+                },
+                {
+                    "label": "Competition",
+                    "value": "Low"
+                }
+            ]
+        },
+        {
+            "id": "ins_006",
+            "type": "trend",
+            "title": "Seasonal Pattern Detected",
+            "description": "Historical data suggests 34% revenue increase expected in the next 2 weeks due to holiday shopping season.",
+            "confidence": 91,
+            "impact": "high",
+            "actionable": false,
+            "createdAt": "2024-12-11T20:30:00Z",
+            "metrics": [
+                {
+                    "label": "Expected Lift",
+                    "value": "+34%"
+                },
+                {
+                    "label": "Timeframe",
+                    "value": "2 weeks"
+                }
+            ]
+        },
+        {
+            "id": "ins_007",
+            "type": "recommendation",
+            "title": "Bundle Opportunity",
+            "description": "Customers who buy Smart Water Bottle often purchase Portable Blender. Consider creating a bundle offer.",
+            "confidence": 85,
+            "impact": "medium",
+            "actionable": true,
+            "action": "Create Bundle",
+            "createdAt": "2024-12-11T18:15:00Z",
+            "metrics": [
+                {
+                    "label": "Correlation",
+                    "value": "72%"
+                },
+                {
+                    "label": "Est. Uplift",
+                    "value": "+18%"
+                }
+            ]
+        },
+        {
+            "id": "ins_008",
+            "type": "warning",
+            "title": "Supplier Risk Alert",
+            "description": "TechFlow Electronics response time has increased by 40% this week. Monitor closely for potential fulfillment delays.",
+            "confidence": 76,
+            "impact": "medium",
+            "actionable": true,
+            "action": "Contact Supplier",
+            "createdAt": "2024-12-11T16:00:00Z",
+            "metrics": [
+                {
+                    "label": "Response Time",
+                    "value": "+40%"
+                },
+                {
+                    "label": "Affected Products",
+                    "value": "12"
+                }
+            ]
+        }
+    ],
+    "activityFeed": [
+        {
+            "id": "act_001",
+            "type": "sale",
+            "title": "New Order Received",
+            "description": "Smart Wireless Earbuds Pro x2 - $159.98",
+            "timestamp": "2024-12-12T13:45:00Z",
+            "icon": "ShoppingCart",
+            "color": "#10B981",
+            "read": false
+        },
+        {
+            "id": "act_002",
+            "type": "milestone",
+            "title": "Sales Milestone",
+            "description": "Portable LED Ring Light reached 15,000+ sales!",
+            "timestamp": "2024-12-12T12:30:00Z",
+            "icon": "Trophy",
+            "color": "#F59E0B",
+            "read": false
+        },
+        {
+            "id": "act_003",
+            "type": "insight",
+            "title": "AI Insight Generated",
+            "description": "New opportunity detected for Japanese market",
+            "timestamp": "2024-12-12T11:15:00Z",
+            "icon": "Lightbulb",
+            "color": "#6366F1",
+            "read": true
+        },
+        {
+            "id": "act_004",
+            "type": "alert",
+            "title": "Stock Alert",
+            "description": "Magnetic Phone Mount running low (< 50 units)",
+            "timestamp": "2024-12-12T10:00:00Z",
+            "icon": "AlertTriangle",
+            "color": "#EF4444",
+            "read": true
+        },
+        {
+            "id": "act_005",
+            "type": "sale",
+            "title": "Bulk Order Received",
+            "description": "Wireless Charging Pad x10 - $299.90",
+            "timestamp": "2024-12-12T09:30:00Z",
+            "icon": "ShoppingCart",
+            "color": "#10B981",
+            "read": true
+        },
+        {
+            "id": "act_006",
+            "type": "update",
+            "title": "Price Updated",
+            "description": "Ergonomic Laptop Stand price adjusted to $59.99",
+            "timestamp": "2024-12-12T08:45:00Z",
+            "icon": "RefreshCw",
+            "color": "#3B82F6",
+            "read": true
+        }
+    ]
+}

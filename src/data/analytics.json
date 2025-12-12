@@ -1,0 +1,402 @@
+{
+    "kpis": [
+        {
+            "id": "kpi_revenue",
+            "title": "Total Revenue",
+            "value": 847392,
+            "previousValue": 723891,
+            "change": 17.1,
+            "changeType": "increase",
+            "format": "currency",
+            "icon": "DollarSign",
+            "color": "success",
+            "sparklineData": [
+                45000,
+                52000,
+                48000,
+                61000,
+                55000,
+                72000,
+                68000,
+                85000,
+                79000,
+                94000,
+                88000,
+                102000
+            ]
+        },
+        {
+            "id": "kpi_orders",
+            "title": "Total Orders",
+            "value": 12847,
+            "previousValue": 11234,
+            "change": 14.4,
+            "changeType": "increase",
+            "format": "number",
+            "icon": "ShoppingCart",
+            "color": "primary",
+            "sparklineData": [
+                820,
+                945,
+                890,
+                1020,
+                980,
+                1150,
+                1080,
+                1240,
+                1180,
+                1350,
+                1290,
+                1420
+            ]
+        },
+        {
+            "id": "kpi_margin",
+            "title": "Avg Profit Margin",
+            "value": 72.4,
+            "previousValue": 68.9,
+            "change": 5.1,
+            "changeType": "increase",
+            "format": "percentage",
+            "icon": "TrendingUp",
+            "color": "success",
+            "sparklineData": [
+                65,
+                67,
+                68,
+                69,
+                70,
+                71,
+                69,
+                72,
+                71,
+                73,
+                72,
+                74
+            ]
+        },
+        {
+            "id": "kpi_products",
+            "title": "Active Products",
+            "value": 156,
+            "previousValue": 142,
+            "change": 9.9,
+            "changeType": "increase",
+            "format": "number",
+            "icon": "Package",
+            "color": "info",
+            "sparklineData": [
+                120,
+                125,
+                128,
+                132,
+                135,
+                138,
+                140,
+                145,
+                148,
+                150,
+                153,
+                156
+            ]
+        },
+        {
+            "id": "kpi_conversion",
+            "title": "Conversion Rate",
+            "value": 4.8,
+            "previousValue": 4.2,
+            "change": 14.3,
+            "changeType": "increase",
+            "format": "percentage",
+            "icon": "Target",
+            "color": "primary",
+            "sparklineData": [
+                3.8,
+                3.9,
+                4.0,
+                4.1,
+                4.2,
+                4.3,
+                4.4,
+                4.5,
+                4.6,
+                4.7,
+                4.7,
+                4.8
+            ]
+        },
+        {
+            "id": "kpi_aov",
+            "title": "Avg Order Value",
+            "value": 65.92,
+            "previousValue": 64.45,
+            "change": 2.3,
+            "changeType": "increase",
+            "format": "currency",
+            "icon": "CreditCard",
+            "color": "warning",
+            "sparklineData": [
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                62,
+                64,
+                63,
+                65,
+                64,
+                66
+            ]
+        }
+    ],
+    "revenueData": [
+        {
+            "date": "Jan",
+            "revenue": 45000,
+            "orders": 820,
+            "profit": 32400
+        },
+        {
+            "date": "Feb",
+            "revenue": 52000,
+            "orders": 945,
+            "profit": 37440
+        },
+        {
+            "date": "Mar",
+            "revenue": 48000,
+            "orders": 890,
+            "profit": 34560
+        },
+        {
+            "date": "Apr",
+            "revenue": 61000,
+            "orders": 1020,
+            "profit": 43920
+        },
+        {
+            "date": "May",
+            "revenue": 55000,
+            "orders": 980,
+            "profit": 39600
+        },
+        {
+            "date": "Jun",
+            "revenue": 72000,
+            "orders": 1150,
+            "profit": 51840
+        },
+        {
+            "date": "Jul",
+            "revenue": 68000,
+            "orders": 1080,
+            "profit": 48960
+        },
+        {
+            "date": "Aug",
+            "revenue": 85000,
+            "orders": 1240,
+            "profit": 61200
+        },
+        {
+            "date": "Sep",
+            "revenue": 79000,
+            "orders": 1180,
+            "profit": 56880
+        },
+        {
+            "date": "Oct",
+            "revenue": 94000,
+            "orders": 1350,
+            "profit": 67680
+        },
+        {
+            "date": "Nov",
+            "revenue": 88000,
+            "orders": 1290,
+            "profit": 63360
+        },
+        {
+            "date": "Dec",
+            "revenue": 102000,
+            "orders": 1420,
+            "profit": 73440
+        }
+    ],
+    "categoryBreakdown": [
+        {
+            "name": "Electronics",
+            "value": 324500,
+            "percentage": 38.3,
+            "color": "#6366F1"
+        },
+        {
+            "name": "Health & Fitness",
+            "value": 187200,
+            "percentage": 22.1,
+            "color": "#10B981"
+        },
+        {
+            "name": "Home & Office",
+            "value": 152800,
+            "percentage": 18.0,
+            "color": "#8B5CF6"
+        },
+        {
+            "name": "Travel",
+            "value": 98400,
+            "percentage": 11.6,
+            "color": "#F59E0B"
+        },
+        {
+            "name": "Kitchen",
+            "value": 84492,
+            "percentage": 10.0,
+            "color": "#EC4899"
+        }
+    ],
+    "regionData": [
+        {
+            "name": "North America",
+            "value": 356000,
+            "percentage": 42,
+            "orders": 5400
+        },
+        {
+            "name": "Europe",
+            "value": 254000,
+            "percentage": 30,
+            "orders": 3850
+        },
+        {
+            "name": "Asia Pacific",
+            "value": 170000,
+            "percentage": 20,
+            "orders": 2580
+        },
+        {
+            "name": "Other",
+            "value": 67392,
+            "percentage": 8,
+            "orders": 1017
+        }
+    ],
+    "geoPoints": [
+        {
+            "id": "geo_1",
+            "lat": 40.7128,
+            "lng": -74.006,
+            "name": "New York",
+            "country": "USA",
+            "value": 125000,
+            "products": 89,
+            "growth": 23.5
+        },
+        {
+            "id": "geo_2",
+            "lat": 34.0522,
+            "lng": -118.2437,
+            "name": "Los Angeles",
+            "country": "USA",
+            "value": 98000,
+            "products": 72,
+            "growth": 18.2
+        },
+        {
+            "id": "geo_3",
+            "lat": 51.5074,
+            "lng": -0.1278,
+            "name": "London",
+            "country": "UK",
+            "value": 87000,
+            "products": 65,
+            "growth": 15.8
+        },
+        {
+            "id": "geo_4",
+            "lat": 48.8566,
+            "lng": 2.3522,
+            "name": "Paris",
+            "country": "France",
+            "value": 72000,
+            "products": 54,
+            "growth": 12.4
+        },
+        {
+            "id": "geo_5",
+            "lat": 52.52,
+            "lng": 13.405,
+            "name": "Berlin",
+            "country": "Germany",
+            "value": 65000,
+            "products": 48,
+            "growth": 19.1
+        },
+        {
+            "id": "geo_6",
+            "lat": 35.6762,
+            "lng": 139.6503,
+            "name": "Tokyo",
+            "country": "Japan",
+            "value": 58000,
+            "products": 42,
+            "growth": 28.7
+        },
+        {
+            "id": "geo_7",
+            "lat": 31.2304,
+            "lng": 121.4737,
+            "name": "Shanghai",
+            "country": "China",
+            "value": 54000,
+            "products": 38,
+            "growth": 32.1
+        },
+        {
+            "id": "geo_8",
+            "lat": 22.3193,
+            "lng": 114.1694,
+            "name": "Hong Kong",
+            "country": "China",
+            "value": 48000,
+            "products": 35,
+            "growth": 21.4
+        },
+        {
+            "id": "geo_9",
+            "lat": -33.8688,
+            "lng": 151.2093,
+            "name": "Sydney",
+            "country": "Australia",
+            "value": 42000,
+            "products": 31,
+            "growth": 16.8
+        },
+        {
+            "id": "geo_10",
+            "lat": 55.7558,
+            "lng": 37.6173,
+            "name": "Moscow",
+            "country": "Russia",
+            "value": 35000,
+            "products": 26,
+            "growth": 8.9
+        }
+    ],
+    "dailyMetrics": {
+        "today": {
+            "revenue": 8542,
+            "orders": 127,
+            "visitors": 4521,
+            "conversion": 2.81
+        },
+        "yesterday": {
+            "revenue": 7823,
+            "orders": 118,
+            "visitors": 4102,
+            "conversion": 2.88
+        }
+    }
+}

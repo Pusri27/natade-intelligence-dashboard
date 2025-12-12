@@ -1,36 +1,176 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Natade Intelligence
 
-## Getting Started
+> AI-Powered Product Intelligence Platform for Dropshipping Excellence
 
-First, run the development server:
+A premium, production-ready analytics dashboard built with modern web technologies. This project showcases advanced frontend development skills including complex animations, responsive design, state management, and accessibility best practices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+### 🎨 Premium UI/UX
+- **Dark/Light Theme** - Smooth animated theme switching with localStorage persistence
+- **Glassmorphism Design** - Modern frosted-glass effects throughout the UI
+- **Micro-interactions** - Magnetic buttons, hover spotlights, haptic feedback
+- **Smooth Animations** - Page transitions, scroll reveals, parallax effects
+
+### 📊 Dashboard Components
+- **KPI Cards** - Animated counters with sparkline charts
+- **Revenue Charts** - Interactive area, bar, and pie charts with Recharts
+- **AI Insights** - Cards with confidence scores and actionable recommendations
+- **Trending Table** - Sortable, filterable product data table
+- **Live Activity Feed** - Real-time notifications with animation
+
+### ⚡ Advanced Features
+- **Command Palette** - Press `⌘K` for quick navigation (like Vercel/Linear)
+- **Keyboard Shortcuts** - Press `?` to view all shortcuts
+- **Radial Quick Actions** - Floating action button with radial menu
+- **Cinematic Preloader** - Animated logo reveal on first load
+- **Infinite Marquee** - Smooth scrolling platform logos
+
+### ♿ Accessibility (A11y)
+- Skip navigation link for keyboard users
+- ARIA labels on all interactive elements
+- Focus management and visible focus states
+- Screen reader announcements
+- Reduced motion support
+
+### 🛡️ Error Handling
+- Custom 404 page with animated design
+- Global error boundary with retry functionality
+- Skeleton loading states for all pages
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| **Framework** | Next.js 16 (App Router) |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS v4 |
+| **Animations** | Framer Motion |
+| **Charts** | Recharts |
+| **State** | Zustand |
+| **Icons** | Lucide React |
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx          # Root layout with providers
+│   ├── page.tsx            # Landing page
+│   ├── not-found.tsx       # Custom 404 page
+│   ├── global-error.tsx    # Error boundary
+│   ├── dashboard/          # Dashboard page
+│   ├── products/           # Products page
+│   └── insights/           # AI Insights page
+├── components/
+│   ├── layout/             # Navbar, Footer, CommandPalette
+│   ├── landing/            # Hero, Features, Stats, CTA
+│   ├── dashboard/          # KPICard, Charts, Tables
+│   └── ui/                 # Reusable UI components (30+)
+├── store/                  # Zustand global state
+├── data/                   # Mock JSON data
+├── lib/                    # Utility functions
+└── types/                  # TypeScript definitions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone the repository
+git clone https://github.com/Pusri27/natade-intelligence-dashboard.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Navigate to project
+cd natade-intelligence-dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Install dependencies
+npm install
 
-## Deploy on Vercel
+# Run development server
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+---
+
+## 🎯 Key Highlights
+
+### For Recruiters/Interviewers
+
+This project demonstrates proficiency in:
+
+- **Modern React Patterns** - Server/Client components, hooks, context
+- **TypeScript** - Full type safety with interfaces and generics
+- **CSS Architecture** - Tailwind CSS v4 with custom design system
+- **Animation** - Complex Framer Motion animations and gestures
+- **State Management** - Zustand with persistence middleware
+- **Performance** - Lazy loading, code splitting, optimized renders
+- **Accessibility** - WCAG compliance, keyboard navigation, screen readers
+- **Error Handling** - Boundaries, fallbacks, loading states
+
+---
+
+## 📄 Pages
+
+| Page | Route | Description |
+|------|-------|-------------|
+| Landing | `/` | Hero, features, stats, CTA sections |
+| Dashboard | `/dashboard` | KPIs, charts, insights, activity feed |
+| Products | `/products` | Product grid with search and filters |
+| Insights | `/insights` | AI-generated insights with filtering |
+| 404 | `/*` | Custom animated error page |
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `⌘K` | Open command palette |
+| `?` | Show keyboard shortcuts |
+| `G` then `D` | Go to Dashboard |
+| `G` then `P` | Go to Products |
+| `G` then `I` | Go to Insights |
+| `T` | Toggle theme |
+| `Esc` | Close modals |
+
+---
+
+## 👤 Author
+
+**Pusri**
+
+- GitHub: [@Pusri27](https://github.com/Pusri27)
+
+---
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+  Built with ❤️ using Next.js, TypeScript, and Tailwind CSS
+</p>
